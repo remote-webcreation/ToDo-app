@@ -74,9 +74,10 @@ body {
                 text-align: center;
                 height: fit-content;
 
-                h1 {
-                    font-size: 1rem;
-                    color: #6b636347;
+                time {
+                    font-size: 1.25rem;
+                    font-weight: bold;
+                    color: #d4717197;
                 }
 
                 .content {
