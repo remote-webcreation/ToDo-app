@@ -21,6 +21,13 @@ body {
 .container {
     height: 80%;
     width: 100%;
+    overflow: hidden;
+    .screen-backdrop {
+        width: 100%;
+        height: 25rem;
+        border-radius: 0 0 50% 50%;
+        background-color: #85b5f9;
+    }
 }
 
 
