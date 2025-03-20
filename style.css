@@ -31,7 +31,7 @@ body {
         width: 135%;
         height: 25rem;
         border-radius: 0 0 50% 50%;
-        background-color: rgba(213, 112, 135, 0.77);
+        background-color: rgba(183, 88, 194, 0.77);
         position: absolute;
         top: 0;
         left: 50%;
@@ -44,12 +44,10 @@ body {
         min-width: 100%;
         justify-content: center;
         align-items: start;
-        border: 1px solid red;
 
         .head-wrapper {
             padding: 1.875rem;
             transition: all .35s ease-in-out;
-            border: 1px solid red;
             .menu-btn {
                 width: 3em;
                 cursor: pointer;
@@ -77,7 +75,7 @@ body {
                 time {
                     font-size: 1.25rem;
                     font-weight: bold;
-                    color: #d4717197;
+                    color: #d5bfbf97;
                 }
 
                 .content {
@@ -117,8 +115,39 @@ body {
                     padding: 1.5rem 1rem;
                     cursor: pointer;
                     display: flex;
-                    justify-content: center;
+                    justify-content: space-between;
                     box-shadow: 0 10 px 20px 5px #00000023 ;
+                    transition: all .35s ease;
+                    &:hover {
+                        transform: translateY(-5px);
+                        box-shadow: 0 10 px 20px 5px #00000040 ;
+                    }
+
+                    .left {
+                        display: flex;
+                        gap: 1.5rem;
+                        align-items: center;
+                        img {
+                            width: 3rem;
+                        }
+                        .contents {
+                            h1 {
+                                font-size: 1.5rem;
+                            }
+                            p {
+                                font-size: .8rem;
+                                color:#2e2e2e;
+                                opacity: 0.6;
+                            }
+                        }
+                    }
+
+                    .options .toggle-btn {
+                        font-size: 2rem;
+                        cursor: pointer;
+                        opacity: 0.6;
+                    }
+                    
 
                 }
             }
@@ -127,10 +156,6 @@ body {
 
     
 }
-
-
-
-
 
 
 
