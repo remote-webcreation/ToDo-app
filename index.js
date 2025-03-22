@@ -7,3 +7,18 @@ function formatDate(date) {
 }
 // Heute-Datum in das gewünschte Format setzen
 document.getElementById("heute").textContent = formatDate(new Date());
+
+
+
+// Category-menu
+const container = document.querySelector(".container");
+const backBtn = document.querySelector(".back-btn");
+const menuBtn = document.querySelector(".menu-btn");
+
+const toggleSreen = () => {
+    container.classList.toggle("show-category");
+};
+
+menuBtn.addEventListener("click", toggleSreen);
+backBtn.addEventListener("click", toggleSreen);
+
